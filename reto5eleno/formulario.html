@@ -1,0 +1,104 @@
+<div class="container">
+    <h2 class="text-center">Llene el formulario para completar la compra</h2>
+    <form  id="myform" action="compra.html">
+        <div>
+            <div class="col-md-12">
+                <div class="md-form mb-0">
+                    <label for="name" class="">Nombre</label>
+                    <input type="text" id="name" name="nombre" class="form-control" placeholder="Nombre" required>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="md-form mb-0">
+                    <label for="apellido" class="">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Apellido" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group">
+                    <label>Direccion</label>
+                    <input type="text" class="form-control" id="street1_id" name="street1" placeholder="N de la casa y nombre de la calle" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group">
+                    <label>Localidad/Ciudad</label>
+                    <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Apartmento, habitacion, casa." required>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="form-group">
+                    <label>Provincia</label>
+                    <select class="form-control" id="state_id">
+                        <option value="BA">Buenos Aires</option>
+                        <option value="CA">Catamarca</option>
+                        <option value="CH">Chaco</option>
+                        <option value="CT">Chubut</option>
+                        <option value="CB">Córdoba</option>
+                        <option value="CO">Corrientes</option>
+                        <option value="ER">Entre Ríos</option>
+                        <option value="FO">Formosa</option>
+                        <option value="JU">Jujuy</option>
+                        <option value="LP">La Pampa</option>
+                        <option value="LR">La Rioja</option>
+                        <option value="ME">Mendoza</option>
+                        <option value="MI">Misiones</option>
+                        <option value="NE">Neuquén</option>
+                        <option value="RN">Río Negro</option>
+                        <option value="SA">Salta</option>
+                        <option value="SJ">San Juan</option>
+                        <option value="SC">Santa Cruz</option>
+                        <option value="SF">Santa Fe</option>
+                        <option value="SE">Santiago del Estero</option>
+                        <option value="TF">Tierra del Fuego</option>
+                        <option value="TU">Tucumán</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group">
+                    <!-- Ciudad-->
+                    <label>Codigo Postal</label>
+                    <input type="text" class="form-control" id="cp" name="cp" placeholder="CP" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group">
+                    <label>Telefono</label>
+                    <input type="text" class="form-control" id="telefono" name="telefono" placeholder="#####" required>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="md-form mb-0">
+                    <label for="email" class="">Correo Electronico</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="email" required>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="form-group">
+                    <label>Elija la Rama del Derecho que necesita</label>
+                    <select class="form-control" id="state_id">
+                        <option value="DS">Derecho Sucesorio</option>
+                        <option value="DF">Derecho de Familia</option>
+                        <option value="DI">Derecho Informático</option>
+                        
+                    </select>
+                </div>
+            </div>
+            
+
+            <div class="col-12">
+                <div class="form-group"><br>
+                    <h3 class="text-center">Especificaciones del conflicto</h3>
+                    <textarea type ="text" class="form-control" id="mensaje" name="mensaje" placeholder="Opcional" rows="7"></textarea>
+                </div>
+            </div>
+            </div>
+            
+            <button class="btn btn-dark">Enviar formulario</button><br><br>
+          
+        </div>
+    </form>
+</div>
